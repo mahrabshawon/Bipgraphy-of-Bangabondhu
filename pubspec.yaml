@@ -1,0 +1,256 @@
+name: biography_of_bangabondhu
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+      sdk: ">=2.15.1 <3.0.0"
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+      flutter:
+            sdk: flutter
+
+
+      # The following adds the Cupertino Icons font to your application.
+      # Use with the CupertinoIcons class for iOS style icons.
+      cupertino_icons: ^1.0.2
+      url_launcher: ^6.0.20
+      advance_pdf_viewer: ^2.0.1
+      syncfusion_flutter_pdfviewer: ^20.1.52-beta
+      pdf_render: ^1.0.23
+      responsive_sizer: ^3.0.8
+      shared_preferences: ^2.0.15
+      http: ^0.13.4
+      youtube_player_flutter: ^8.0.0
+      video_player: ^2.4.4
+
+
+      
+
+
+
+dev_dependencies:
+      flutter_test:
+            sdk: flutter
+
+      # The "flutter_lints" package below contains a set of recommended lints to
+      # encourage good coding practices. The lint set provided by the package is
+      # activated in the `analysis_options.yaml` file located at the root of your
+      # package. See that file for information about deactivating specific lint
+      # rules and activating additional ones.
+      flutter_lints: ^1.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+      # The following line ensures that the Material Icons font is
+      # included with your application, so that you can use the icons in
+      # the material Icons class.
+      uses-material-design: true
+
+      # To add assets to your application, add an assets section, like this:
+      assets:
+
+            - assets/aboutbongobondhu.png
+            - assets/addvideo.png
+            - assets/black_1.png
+            - assets/black_2.png
+            - assets/black_3.png
+            - assets/black_4.png
+            - assets/black_5.png
+            - assets/black_7.png
+            - assets/black_8.png
+            - assets/black_9.png
+            - assets/black_10.png
+            - assets/black_11.png
+            - assets/blue_1.png
+            - assets/blue_2.png
+            - assets/blue_3.png
+            - assets/blue_4.png
+            - assets/blue_5.png
+            - assets/blue_6.png
+            - assets/blue_7.png
+            - assets/blue_8.png
+            - assets/blue_9.png
+            - assets/blue_10.png
+            - assets/blue_11.png
+            - assets/contribute.png
+            - assets/create_file.png
+            - assets/eknojor.png
+            - assets/eknojore.png
+            - assets/email.png
+            - assets/fifty_b.png
+            - assets/fifty_forty_s.png
+            - assets/fiftyeight_b.png
+            - assets/fiftyfive_b.png
+            - assets/fiftyfour_b.png
+            - assets/fiftynine_b.png
+            - assets/fiftyone_b.png
+            - assets/fiftyseven_seven_b.png
+            - assets/fiftysix_b.png
+            - assets/fiftythree_b.png
+            - assets/fiftytwo_b.png
+            - assets/fortyfour_b.png
+            - assets/fortynine_b.png
+            - assets/fortyseven_b.png
+            - assets/fortysix_b.png
+            - assets/fortythree.png
+            - assets/fortytwo_b.png
+            - assets/haand_icon.png
+            - assets/haand_icon_small.png
+            - assets/hand.png
+            - assets/hand_small.png
+            - assets/homeicon.png
+            - assets/icon.jpg
+            - assets/iconaddimage.png
+            - assets/iconbook.png
+            - assets/icons_video_gallery.png
+            - assets/iconsaddbook.png
+            - assets/iconsaddfile.png
+            - assets/key.png
+            - assets/leftquote.png
+            - assets/life_history.png
+            - assets/logo_1.png
+            - assets/mujib_6.png
+            - assets/mujib_7.png
+            - assets/mujib_8.png
+            - assets/mujib_9.png
+            - assets/mujib_10.png
+            - assets/mujib_11.png
+            - assets/mujib_12.png
+            - assets/mujib_13.png
+            - assets/mujib_14.png
+            - assets/mujib_15.png
+            - assets/mujib_16.png
+            - assets/mujib_17.png
+            - assets/mujib_18.png
+            - assets/mujib_19.png
+            - assets/mujib_20.png
+            - assets/mujib_21.png
+            - assets/nameicon.png
+            - assets/photo1.png
+            - assets/photo2.png
+            - assets/photo3.png
+            - assets/photo4.png
+            - assets/photo5.png
+            - assets/photo6.png
+            - assets/photo7.png
+            - assets/photo9.png
+            - assets/photo10.png
+            - assets/photo11.png
+            - assets/photo12.png
+            - assets/photo13.png
+            - assets/photo14.png
+            - assets/photo15.png
+            - assets/photo16.png
+            - assets/photo17.png
+            - assets/photo18.png
+            - assets/photo19.png
+            - assets/photo20.png
+            - assets/photo21.png
+            - assets/photo22.png
+            - assets/photo23.png
+            - assets/photo24.png
+            - assets/photo25.png
+            - assets/roundicon.png
+            - assets/roundsmall.png
+            - assets/seventy_b.png
+            - assets/seventyfive_b.png
+            - assets/seventyfour.png
+            - assets/seventyone_b.png
+            - assets/seventythree.png
+            - assets/seventytwo_b.png
+            - assets/skitch1.png
+            - assets/skitch3.png
+            - assets/skitch4.png
+            - assets/skitch5.png
+            - assets/splash.png
+            - assets/splash_p.png
+            - assets/thirtynine_forty_double_s.png
+            - assets/thirtynine_forty_s.png
+            - assets/twenty_b.png
+            - assets/twenty_forty_s.png
+            - assets/twenty_s.png
+            - assets/underconstruction.png
+            - assets/video1.png
+            - assets/video2.png
+            - assets/video3.png
+            - assets/video4.png
+            - assets/bismillah.jpg
+            - assets/AmarDekhaNoyachin.pdf
+            - assets/karagare.pdf
+            - assets/oshomapto_attojiboni.pdf
+            - assets/oshomapto_attojiboni.pdf
+            - assets/oshomapto_attojiboni.pdf
+            - assets/thirtynine_s.png
+            - assets/black_6.png
+            - assets/black_9.png
+            - assets/arial-black.ttf
+            - assets/eknojor.png
+            - assets/gallery.png
+            - assets/quote.png
+            - assets/share_icon.png
+            - assets/procchod1.png
+            - assets/procchod2.png
+            - assets/procchod3.png
+            - assets/procchod4.png
+            - assets/procchod5.png
+            - assets/seikh_mu.jpg
+
+
+
+
+
+
+
+
+
+
+
+      # An image asset can refer to one or more resolution-specific "variants", see
+      # https://flutter.dev/assets-and-images/#resolution-aware.
+
+      # For details regarding adding assets from package dependencies, see
+      # https://flutter.dev/assets-and-images/#from-packages
+
+      # To add custom fonts to your application, add a fonts section here,
+      # in this "flutter" section. Each entry in this list should have a
+      # "family" key with the font family name, and a "fonts" key with a
+      # list giving the asset and other descriptors for the font. For
+      # example:
+      fonts:
+        - family: Arial
+          fonts:
+            - asset: assets/arial-black.ttf
+#            - asset: assets/eknojor.tff
+      #   - family: Trajan Pro
+      #     fonts:
+      #       - asset: fonts/TrajanPro.ttf
+      #       - asset: fonts/TrajanPro_Bold.ttf
+      #         weight: 700
+      #
+      # For details regarding fonts from package dependencies,
+      # see https://flutter.dev/custom-fonts/#from-packages
