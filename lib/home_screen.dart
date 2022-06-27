@@ -1,10 +1,8 @@
-
 import 'package:biography_of_bangabondhu/Drawer.dart';
 import 'package:biography_of_bangabondhu/Videos.dart';
 import 'package:biography_of_bangabondhu/boisomuho.dart';
 import 'package:biography_of_bangabondhu/bongobondhuBooks.dart';
 import 'package:biography_of_bangabondhu/chobisomuho.dart';
-
 import 'package:biography_of_bangabondhu/jiboni.dart';
 import 'package:biography_of_bangabondhu/uddriti.dart';
 import 'package:flutter/material.dart';
@@ -19,10 +17,8 @@ class MyApps extends StatelessWidget {
 
   const MyApps({Key? key}) : super(key: key);
 
-
   @override
   Widget build(BuildContext context) {
-
     Future.delayed(Duration.zero, () => showDialogIfFirstLoaded(context));
     return Scaffold(
       appBar: AppBar(
@@ -77,9 +73,9 @@ class MyApps extends StatelessWidget {
                         child: Container(
                           child: Text(
                             "বুধবার ১৭ মার্চ ২০২১ এক মহামানবের ১০১তম জন্মদিন। স্বাধীন বাংলার রূপকার,"
-                                " হাজার বছরের সর্বশ্রেষ্ঠ বাঙালি, স্বাধীন বাংলার স্থপতি ও "
-                                "জাতির জনক বঙ্গবন্ধু শেখ মুজিবুর রহমান। বিশ্বের আপামর মুক্তিকামী "
-                                "জনতার কণ্ঠস্বর শেখ মুজিবুর রহমান।",
+                            " হাজার বছরের সর্বশ্রেষ্ঠ বাঙালি, স্বাধীন বাংলার স্থপতি ও "
+                            "জাতির জনক বঙ্গবন্ধু শেখ মুজিবুর রহমান। বিশ্বের আপামর মুক্তিকামী "
+                            "জনতার কণ্ঠস্বর শেখ মুজিবুর রহমান।",
                             style: TextStyle(
                               color: Colors.black,
                               fontWeight: FontWeight.w400,
@@ -95,7 +91,7 @@ class MyApps extends StatelessWidget {
                 Container(
                   child: Padding(
                     padding:
-                    const EdgeInsets.only(left: 20, right: 20, top: 10),
+                        const EdgeInsets.only(left: 20, right: 20, top: 10),
                     child: Column(
                       children: [
                         Align(
@@ -111,8 +107,8 @@ class MyApps extends StatelessWidget {
                         ),
                         Text(
                           "১৯২০ সালের ১৭ই মার্চ বর্তমান গোপালগঞ্জ জেলার টুঙ্গিপাড়া গ্রামে। "
-                              "বাবা শেখ লুৎফর রহমান এবং মা সায়েরা খাতুনের "
-                              "চার কন্যা ও দুই পুত্রের মধ্যে তৃতীয়।",
+                          "বাবা শেখ লুৎফর রহমান এবং মা সায়েরা খাতুনের "
+                          "চার কন্যা ও দুই পুত্রের মধ্যে তৃতীয়।",
                           style: TextStyle(
                             fontSize: 18,
                             fontWeight: FontWeight.w400,
@@ -127,7 +123,7 @@ class MyApps extends StatelessWidget {
                 Container(
                   child: Padding(
                     padding:
-                    const EdgeInsets.only(left: 20, right: 20, top: 10),
+                        const EdgeInsets.only(left: 20, right: 20, top: 10),
                     child: Column(
                       children: [
                         Align(
@@ -164,7 +160,7 @@ class MyApps extends StatelessWidget {
                 Container(
                   child: Padding(
                     padding:
-                    const EdgeInsets.only(left: 20, right: 20, top: 10),
+                        const EdgeInsets.only(left: 20, right: 20, top: 10),
                     child: Column(
                       children: [
                         Align(
@@ -196,7 +192,7 @@ class MyApps extends StatelessWidget {
                 Container(
                   child: Padding(
                     padding:
-                    const EdgeInsets.only(left: 20, right: 20, top: 10),
+                        const EdgeInsets.only(left: 20, right: 20, top: 10),
                     child: Column(
                       children: [
                         Align(
@@ -261,8 +257,8 @@ class MyApps extends StatelessWidget {
                         ),
                         Text(
                           "১৯৭৫- সালের ১৫ই আগস্ট ভোরে এই মহামানব সেনাবাহিনীর "
-                              "একদল উশৃংখল কর্মকর্তার হাতে নির্মমভাবে "
-                              "স্বপরিবারে তাঁর নিজ বাসভবনে নিহত হন।",
+                          "একদল উশৃংখল কর্মকর্তার হাতে নির্মমভাবে "
+                          "স্বপরিবারে তাঁর নিজ বাসভবনে নিহত হন।",
                           style: TextStyle(
                             fontSize: 18,
                             fontWeight: FontWeight.w400,
@@ -280,9 +276,9 @@ class MyApps extends StatelessWidget {
         ),
       ),
       drawer: myDrawer(),
-
     );
   }
+
   showDialogIfFirstLoaded(BuildContext context) async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
     showDialog(
@@ -324,13 +320,13 @@ class MyApps extends StatelessWidget {
                               left: 10, right: 10, top: 20),
                           child: Container(
                               child: DefaultTextStyle(
-                                style: TextStyle(
-                                  fontSize: 18,
-                                  fontWeight: FontWeight.w400,
-                                  color: Colors.black,
-                                ),
-                                child: Text(
-                                  """সর্বকালের সর্বশ্রেষ্ঠ বাঙালি (সোর্স : উইকিপিডিয়া)\nশেখ মুজিবুর রহমান ( বাংলা : শেখ মুজিবুর রহমান ;
+                            style: TextStyle(
+                              fontSize: 18,
+                              fontWeight: FontWeight.w400,
+                              color: Colors.black,
+                            ),
+                            child: Text(
+                              """সর্বকালের সর্বশ্রেষ্ঠ বাঙালি (সোর্স : উইকিপিডিয়া)\nশেখ মুজিবুর রহমান ( বাংলা : শেখ মুজিবুর রহমান ;
 ১ মার্চ ১ঌ২০ - ১৫ আগস্ট ১ঌ৭৫) শেখ মুজিব বা খালি মুজিবের সংক্ষিপ্ত হয়ে একজন বাংলাদেশী রাজনীতিবিদ ও রাজনীতিবিদ ছিলেন।
 তাকে বাংলাদেশের জাতির পিতা বলা হয় । তিনি বাংলাদেশের প্রথম রাষ্ট্রপতি এবং পরবর্তীতে ১৯৭১ সালের ১৭ এপ্রিল থেকে ১৯৭৫ সালের ১৫ আগস্ট তাঁর হত্যাকাণ্ড পর্যন্ত বাংলাদেশের প্রধানমন্ত্রী হিসাবে দায়িত্ব পালন করেছিলেন ।
 তিনি বাংলাদেশের স্বাধীনতার পেছনে চালিকা শক্তি হিসাবে বিবেচিত হন। তাঁকে জনপ্রিয়ভাবে ;বঙ্গবন্ধু; (বঙ্গোবন্ধু) উপাধি দিয়ে ডাকা হয়;বাংলার বন্ধু) বাংলাদেশের জনগণের দ্বারা।
@@ -362,14 +358,13 @@ Jatir Janak;
 বুধবার ১৭ মার্চ ২০২১ এক মহামানবের ১০১তম জন্মদিন।
  স্বাধীন বাংলার রূপকার, হাজার বছরের সর্বশ্রেষ্ঠ বাঙালি, স্বাধীন বাংলার স্থপতি ও জাতির জনক বঙ্গবন্ধু শেখ মুজিবুর রহমান। বিশ্বের আপামর মুক্তিকামী জনতার কণ্ঠস্বর শেখ মুজিবুর রহমান।\n
 """,
-                                  style: TextStyle(
-                                    fontSize: 18,
-                                    fontWeight: FontWeight.w400,
-                                    color: Colors.black,
-                                  ),
-                                ),
-                              )
-                          ),
+                              style: TextStyle(
+                                fontSize: 18,
+                                fontWeight: FontWeight.w400,
+                                color: Colors.black,
+                              ),
+                            ),
+                          )),
                         ),
                       ),
                     ),
@@ -392,9 +387,7 @@ Jatir Janak;
                           // );
                           Navigator.of(context).pop();
 
-
                           prefs.setBool(KeyIsFirstLoaded, false);
-
                         },
                       ),
                     ),
@@ -410,9 +403,4 @@ Jatir Janak;
       ;
     }
   }
-
-
 }
-
-
-
